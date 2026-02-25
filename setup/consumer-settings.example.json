@@ -3,6 +3,6 @@
     "hoangdinhcong/ai-toolkit"
   ],
   "enabledPlugins": [
-    "wb@wb-tools"
+    "wb@ai-toolkit"
   ]
 }

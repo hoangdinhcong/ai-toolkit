@@ -9,8 +9,8 @@ Development toolkit for the WorkBuddy/JMS platform - skills, commands, and agent
 Add the marketplace, then install the plugin:
 
 ```bash
-/plugin marketplace add workbuddy/ai-toolkit
-/plugin install wb@wb-tools
+/plugin marketplace add hoangdinhcong/ai-toolkit
+/plugin install wb@ai-toolkit
 ```
 
 Auto-update is disabled by default for third-party marketplaces. To enable it, devs must opt in manually in their project settings.
@@ -22,10 +22,10 @@ Add to your project's `.claude/settings.json`:
 ```json
 {
   "extraKnownMarketplaces": [
-    "workbuddy/ai-toolkit"
+    "hoangdinhcong/ai-toolkit"
   ],
   "enabledPlugins": [
-    "wb@wb-tools"
+    "wb@ai-toolkit"
   ]
 }
 ```

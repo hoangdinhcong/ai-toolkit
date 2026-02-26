@@ -4,7 +4,5 @@
   "description": "WorkBuddy development toolkit - skills, commands, and agents for the JMS platform",
   "author": {
     "name": "WorkBuddy Team"
-  },
-  "skills": "./skills/",
-  "commands": "./commands/"
+  }
 }

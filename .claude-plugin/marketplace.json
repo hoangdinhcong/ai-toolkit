@@ -10,7 +10,7 @@
       "description": "WorkBuddy development toolkit",
       "source": {
         "source": "url",
-        "url": "https://github.com/hoangdinhcong/ai-toolkit.git"
+        "url": "https://github.com/hoangdinhcong/jms-ai-toolkit.git"
       },
       "category": "development",
       "tags": ["angular", "cqrs", "entity-framework"]

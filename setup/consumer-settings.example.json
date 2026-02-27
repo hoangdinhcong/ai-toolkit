@@ -1,8 +1,8 @@
 {
   "extraKnownMarketplaces": [
-    "hoangdinhcong/ai-toolkit"
+    "hoangdinhcong/jms-ai-toolkit"
   ],
   "enabledPlugins": [
-    "wb@ai-toolkit"
+    "wb@jms-ai-toolkit"
   ]
 }

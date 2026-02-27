@@ -1,6 +1,6 @@
-# WorkBuddy Claude Code Plugin
+# JMS AI Toolkit
 
-Development toolkit for the WorkBuddy/JMS platform - skills, commands, and agents for Angular, CQRS, Entity Framework, and UI/UX development.
+AI-powered development toolkit for the JMS platform. Contains the **WorkBuddy (wb)** plugin — skills, commands, and agents for Angular, CQRS, Entity Framework, and UI/UX development.
 
 ## Installation
 
@@ -9,8 +9,8 @@ Development toolkit for the WorkBuddy/JMS platform - skills, commands, and agent
 Add the marketplace, then install the plugin:
 
 ```bash
-/plugin marketplace add hoangdinhcong/ai-toolkit
-/plugin install wb@ai-toolkit
+/plugin marketplace add hoangdinhcong/jms-ai-toolkit
+/plugin install wb@jms-ai-toolkit
 ```
 
 Auto-update is disabled by default for third-party marketplaces. To enable it, devs must opt in manually in their project settings.
@@ -22,10 +22,10 @@ Add to your project's `.claude/settings.json`:
 ```json
 {
   "extraKnownMarketplaces": [
-    "hoangdinhcong/ai-toolkit"
+    "hoangdinhcong/jms-ai-toolkit"
   ],
   "enabledPlugins": [
-    "wb@ai-toolkit"
+    "wb@jms-ai-toolkit"
   ]
 }
 ```
@@ -35,7 +35,7 @@ See [`setup/consumer-settings.example.json`](setup/consumer-settings.example.jso
 ### Direct (local path)
 
 ```bash
-claude /plugin /path/to/ai-toolkit
+claude /plugin /path/to/jms-ai-toolkit
 ```
 
 ## Skills
@@ -68,7 +68,7 @@ claude /plugin /path/to/ai-toolkit
 ## Structure
 
 ```
-ai-toolkit/
+jms-ai-toolkit/
 ├── .claude-plugin/
 │   ├── plugin.json
 │   └── marketplace.json
